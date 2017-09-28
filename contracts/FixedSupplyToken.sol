@@ -6,7 +6,7 @@ contract FixedSupplyToken is StandardToken, SafeMath {
 
     // Token metadata
     string public constant name = "Fixed Supply Token";
-    string public constant synbol = "FIX";
+    string public constant symbol = "FIX";
     uint256 public constant decimals = 18;
     string public version = "1.0";
     uint256 public _totalSupply = 1000000;
