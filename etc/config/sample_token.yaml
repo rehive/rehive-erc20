@@ -1,0 +1,9 @@
+token:
+  version: "1.0"
+  template: 'FixedSupply_TokenTemplate',
+  contract_name: 'SampleFixedSupply'
+  metadata:
+    name: 'Fixed Supply'
+    symbol: 'FIX'
+    decimals: 18
+    total_supply: 1000000

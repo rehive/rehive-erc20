@@ -9,7 +9,7 @@ contract FixedSupplyToken is StandardToken, SafeMath {
     string public constant symbol = "FIX";
     uint256 public constant decimals = 18;
     string public version = "1.0";
-    uint256 public _totalSupply = 1000000;
+    uint256 public totalSupply = 1000000;
 
     function FixedSupplyToken() {
         // Give the total supply to sender on contract creation

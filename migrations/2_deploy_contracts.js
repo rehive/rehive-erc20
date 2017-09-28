@@ -1,5 +1,5 @@
-var FixedSupplyToken = artifacts.require("./FixedSupplyToken.sol");
+var EchargeToken = artifacts.require("./EchargeToken.sol");
 
 module.exports = function(deployer) {
-    deployer.deploy(FixedSupplyToken)
+    deployer.deploy(EchargeToken)
 };

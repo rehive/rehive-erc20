@@ -1,1 +1,3 @@
 build/
+etc/config/*
+!etc/config/sample_token.yaml
