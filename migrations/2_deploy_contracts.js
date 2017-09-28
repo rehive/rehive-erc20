@@ -1,5 +1,5 @@
-var EchargeToken = artifacts.require("./EchargeToken.sol");
+var SampleToken = artifacts.require("./SampleToken.sol");
 
 module.exports = function(deployer) {
-    deployer.deploy(EchargeToken)
+    deployer.deploy(SampleToken)
 };
